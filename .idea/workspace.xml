@@ -4,20 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9ff98f90-1992-4517-b3ea-9ee6b2bbb1da" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/app/fonts/Vazirmatn-Black.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/fonts/Vazirmatn-Bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/fonts/Vazirmatn-ExtraBold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/fonts/Vazirmatn-ExtraLight.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/fonts/Vazirmatn-Light.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/fonts/Vazirmatn-Medium.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/fonts/Vazirmatn-Regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/fonts/Vazirmatn-SemiBold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/fonts/Vazirmatn-Thin.ttf" afterDir="false" />
+    <list default="true" id="9ff98f90-1992-4517-b3ea-9ee6b2bbb1da" name="Changes" comment="[ADD] vazir font &#10;[UPDATE] `.readme.md`">
+      <change afterPath="$PROJECT_DIR$/.prettierrc.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/globals.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/page.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,22 +19,22 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "zbahadori"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;zbahadori&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/zbahadori/dr-online.git",
-    "accountId": "77d343cd-67c1-4f79-b8de-a41706d56fa0"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/zbahadori/dr-online.git&quot;,
+    &quot;accountId&quot;: &quot;77d343cd-67c1-4f79-b8de-a41706d56fa0&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 2
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="38sDX6Pi3dK9kjYBREef6Wy1e77" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -59,19 +51,20 @@
     "javascript.preferred.runtime.type.id": "node",
     "js.debugger.nextJs.config.created.client": "true",
     "js.debugger.nextJs.config.created.server": "true",
-    "last_opened_file_path": "D:/projects/nextjs/dr-online/src/app/fonts",
+    "last_opened_file_path": "D:/projects/nextjs/dr-online",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.fileTypes",
+    "settings.editor.selected.configurable": "settings.javascript.prettier",
     "ts.external.directory.path": "D:\\projects\\nextjs\\dr-online\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\projects\nextjs\dr-online" />
       <recent name="D:\projects\nextjs\dr-online\src\app\fonts" />
     </key>
   </component>
@@ -104,11 +97,46 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1769579423642</updated>
-      <workItem from="1769579425870" duration="1014000" />
+      <workItem from="1769579425870" duration="1372000" />
+      <workItem from="1769582692697" duration="678000" />
     </task>
+    <task id="LOCAL-00001" summary="[ADD] vazir font &#10;[UPDATE] `.readme.md`">
+      <option name="closed" value="true" />
+      <created>1769580645849</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1769580645850</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="3072b591-884b-4752-ba59-95df5700cf82" value="TOOL_WINDOW" />
+      </map>
+    </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="3072b591-884b-4752-ba59-95df5700cf82">
+          <value>
+            <State />
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="[ADD] vazir font &#10;[UPDATE] `.readme.md`" />
+    <option name="LAST_COMMIT_MESSAGE" value="[ADD] vazir font &#10;[UPDATE] `.readme.md`" />
   </component>
 </project>
