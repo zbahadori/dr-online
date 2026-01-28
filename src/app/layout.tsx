@@ -15,13 +15,11 @@ export const metadata: Metadata = {
   description: "پلتفرم جامع جستجوی دکتر و رزرو نوبت آنلاین",
 };
 
-
 // const geistSans = localFont({
 //   src: "./fonts/GeistVF.woff",
 //   variable: "--font-geist-sans",
 //   weight: "100 900",
 // });
-
 
 export default function RootLayout({
   children,
@@ -30,9 +28,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${vazirmatn.variable}`}>
-        {children}
-      </body>
+      <body className={`${vazirmatn.variable}`}>{children}</body>
     </html>
   );
 }

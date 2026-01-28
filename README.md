@@ -1,6 +1,9 @@
 # DR Online
-##  created by [Zahra Bahadori](https://github.com/zbahadori/dr-online)
+
+## created by [Zahra Bahadori](https://github.com/zbahadori/dr-online)
+
 ### Online doctor appointment booking
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
