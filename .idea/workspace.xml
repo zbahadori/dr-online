@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9ff98f90-1992-4517-b3ea-9ee6b2bbb1da" name="Changes" comment="[ADD] prettier" />
+    <list default="true" id="9ff98f90-1992-4517-b3ea-9ee6b2bbb1da" name="Changes" comment="[Update] gitignore">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -94,7 +96,7 @@
       <option name="presentableId" value="Default" />
       <updated>1769579423642</updated>
       <workItem from="1769579425870" duration="1372000" />
-      <workItem from="1769582692697" duration="1002000" />
+      <workItem from="1769582692697" duration="1926000" />
     </task>
     <task id="LOCAL-00001" summary="[ADD] vazir font &#10;[UPDATE] `.readme.md`">
       <option name="closed" value="true" />
@@ -112,7 +114,23 @@
       <option name="project" value="LOCAL" />
       <updated>1769596260239</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="[ADD] prettier">
+      <option name="closed" value="true" />
+      <created>1769596349828</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1769596349828</updated>
+    </task>
+    <task id="LOCAL-00004" summary="[Update] gitignore">
+      <option name="closed" value="true" />
+      <created>1769596490311</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1769596490311</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -142,6 +160,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="[ADD] vazir font &#10;[UPDATE] `.readme.md`" />
     <MESSAGE value="[ADD] prettier" />
-    <option name="LAST_COMMIT_MESSAGE" value="[ADD] prettier" />
+    <MESSAGE value="[Update] gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="[Update] gitignore" />
   </component>
 </project>
