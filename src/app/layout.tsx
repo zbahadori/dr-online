@@ -1,5 +1,8 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
+
+import HeaderComponent from "@/components/header/header.component";
+
 import "./globals.css";
 
 // بارگذاری فونت از فایل لوکال
@@ -22,7 +25,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="fa" dir="rtl">
-      <body className={`${vazirmatn.variable}`}>{children}</body>
+      <body className={`${vazirmatn.variable}`}>
+        <HeaderComponent />
+        <main>{children}</main>
+      </body>
     </html>
   );
 }
