@@ -1,6 +1,6 @@
 # DR Online
 
-## created by [Zahra Bahadori](https://github.com/zbahadori/dr-online), [demo](https://dr-online-reserve.vercel.app/)
+## created by [Zahra Bahadori](https://github.com/zbahadori/dr-online), visit [Demo](https://dr-online-reserve.vercel.app/) page
 
 ### Online doctor appointment booking
 
