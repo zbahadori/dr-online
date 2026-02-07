@@ -39,6 +39,7 @@
 
 html {
   color-scheme: dark;
+  background-color: var(--color-gray-10);
   /* اسکرول نرم برای کل صفحه */
   scroll-behavior: smooth;
 }
