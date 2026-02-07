@@ -4,11 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9ff98f90-1992-4517-b3ea-9ee6b2bbb1da" name="Changes" comment="[ADD] dynamic page example">
-      <change afterPath="$PROJECT_DIR$/postcss.config.json" afterDir="false" />
+    <list default="true" id="9ff98f90-1992-4517-b3ea-9ee6b2bbb1da" name="Changes" comment="[ADD] header">
+      <change afterPath="$PROJECT_DIR$/src/assets/logo/certificate.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/logo/enamad.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/logo/idk.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/logo/my-doctor.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/footer/footer.component.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/footer/footer.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/icons/MingcuteLinkedinFill.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/icons/MingcuteLocationLine.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/icons/MingcuteSearchLine.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/icons/MingcuteTelegramFill.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/icons/MingcuteYoutubeFill.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +59,7 @@
     &quot;javascript.preferred.runtime.type.id&quot;: &quot;node&quot;,
     &quot;js.debugger.nextJs.config.created.client&quot;: &quot;true&quot;,
     &quot;js.debugger.nextJs.config.created.server&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/projects/nextjs/dr-online&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/projects/nextjs/dr-online/src&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -59,13 +68,16 @@
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;npm.Next.js: server-side.executor&quot;: &quot;Run&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.grazie&quot;,
     &quot;ts.external.directory.path&quot;: &quot;D:\\projects\\nextjs\\dr-online\\node_modules\\typescript\\lib&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\projects\nextjs\dr-online\src" />
+      <recent name="D:\projects\nextjs\dr-online\src\components" />
+      <recent name="D:\projects\nextjs\dr-online\src\app" />
       <recent name="D:\projects\nextjs\dr-online" />
       <recent name="D:\projects\nextjs\dr-online\src\app\fonts" />
     </key>
@@ -104,7 +116,8 @@
       <workItem from="1769863801688" duration="368000" />
       <workItem from="1769864233948" duration="1229000" />
       <workItem from="1770191642822" duration="7105000" />
-      <workItem from="1770361617954" duration="1871000" />
+      <workItem from="1770361617954" duration="7024000" />
+      <workItem from="1770450677723" duration="2874000" />
     </task>
     <task id="LOCAL-00001" summary="[ADD] vazir font &#10;[UPDATE] `.readme.md`">
       <option name="closed" value="true" />
@@ -202,7 +215,47 @@
       <option name="project" value="LOCAL" />
       <updated>1770199325155</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="[ADD] postcss nesting">
+      <option name="closed" value="true" />
+      <created>1770369207918</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1770369207918</updated>
+    </task>
+    <task id="LOCAL-00014" summary="[ADD] css variables">
+      <option name="closed" value="true" />
+      <created>1770369888802</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1770369888802</updated>
+    </task>
+    <task id="LOCAL-00015" summary="[Remove] un necessary code">
+      <option name="closed" value="true" />
+      <created>1770370597492</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1770370597493</updated>
+    </task>
+    <task id="LOCAL-00016" summary="[UPDATE] fav icon">
+      <option name="closed" value="true" />
+      <created>1770370870453</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1770370870453</updated>
+    </task>
+    <task id="LOCAL-00017" summary="[ADD] header">
+      <option name="closed" value="true" />
+      <created>1770373777808</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1770373777808</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -237,6 +290,11 @@
     <MESSAGE value="[ADD] vazir man" />
     <MESSAGE value="[REMOVE] un necessary files" />
     <MESSAGE value="[ADD] dynamic page example" />
-    <option name="LAST_COMMIT_MESSAGE" value="[ADD] dynamic page example" />
+    <MESSAGE value="[ADD] postcss nesting" />
+    <MESSAGE value="[ADD] css variables" />
+    <MESSAGE value="[Remove] un necessary code" />
+    <MESSAGE value="[UPDATE] fav icon" />
+    <MESSAGE value="[ADD] header" />
+    <option name="LAST_COMMIT_MESSAGE" value="[ADD] header" />
   </component>
 </project>
