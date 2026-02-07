@@ -19,7 +19,8 @@
   --color-primary-dark-bg: hsl(174deg 40% 8%);
 
   --color-default-background: var(--color-gray-10);
-  --color-default-foreground: var(--color-primary-fade);
+  /* تغییر رنگ پیش‌فرض متن به سفید/طوسی روشن */
+  --color-default-foreground: var(--color-gray-90);
 
   --border-radius: 1rem;
   --full-width: 70rem;
@@ -40,7 +41,6 @@
 html {
   color-scheme: dark;
   background-color: var(--color-gray-10);
-  /* اسکرول نرم برای کل صفحه */
   scroll-behavior: smooth;
 }
 
@@ -62,15 +62,27 @@ ul {
   list-style: none;
 }
 
+/* متن‌های عادی (پاراگراف‌ها) سفید/طوسی روشن */
 p {
   color: var(--color-default-foreground);
+}
+
+/* عناوین مهم رنگ اصلی (فیروزه‌ای) می‌گیرند */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--color-primary);
+  /* اضافه کردن افکت درخشش ملایم به عناوین */
+  text-shadow: 0 0 10px rgba(34, 237, 230, 0.2);
 }
 
 a {
   color: var(--color-primary);
   text-decoration: none;
   transition: all var(--animation-duration-normal);
-  /* اضافه کردن افکت درخشش ملایم به لینک‌ها */
   text-shadow: 0 0 5px rgba(34, 237, 230, 0.1);
 }
 
@@ -82,34 +94,27 @@ body {
   min-block-size: 100vh;
   min-block-size: 100dvh;
   font-size: 1.0625rem;
-  /* اضافه کردن فونت وزیرمتن اگر کاربر داشته باشد، در غیر این صورت فونت پیش‌فرض */
   font-family: "Vazirmatn", "Tahoma", sans-serif;
   > * {
     padding-inline: var(--full-width-padding-inline);
   }
   .tagline {
-    /* افکت شیشه‌ای (Glassmorphism) */
     background: rgba(20, 30, 30, 0.6);
     backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
-
     padding-block: 1.25rem;
     text-align: center;
     border-top: 1px solid rgba(34, 237, 230, 0.2);
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
-
-    /* انیمیشن ملایم برای ظاهر شدن */
     animation: fadeInDown 0.8s ease-out;
   }
   a:hover {
     color: var(--color-primary-lighter);
-    /* افزایش درخشش هنگام هاور */
     text-shadow: 0 0 15px rgba(34, 237, 230, 0.6);
     transform: translateY(-1px);
   }
 }
 
-/* تعریف انیمیشن */
 @keyframes fadeInDown {
   from {
     opacity: 0;
