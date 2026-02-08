@@ -1,0 +1,27 @@
+.page {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  gap: 1rem;
+  margin-block-end: 2rem;
+  .filters {
+  }
+  .results {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(5rem, 1fr));
+    gap: 0.5rem;
+    > li {
+      background-color: transparent;
+      color: inherit;
+      aspect-ratio: 1/1;
+      display: grid;
+      place-content: center;
+      border-radius: var(--border-radius);
+      border: 0.1rem solid currentColor;
+      &.active {
+        background-color: var(--color-primary);
+        color: var(--color-primary-opposite);
+        border-color: var(--color-primary);
+      }
+    }
+  }
+}
