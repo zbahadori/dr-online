@@ -25,6 +25,10 @@
 
   .visuals {
     grid-area: visuals;
+    img {
+      inline-size: 150px;
+      block-size: 150px;
+    }
   }
 
   .actions {
