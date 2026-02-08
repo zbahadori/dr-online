@@ -14,7 +14,7 @@
     display: grid;
     align-items: center;
 
-    font-size: var(--fz-500);
+    font-size: var(--fz-400);
   }
 
   input {

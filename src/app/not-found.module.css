@@ -10,7 +10,7 @@
     grid-area: writings;
 
     .status-code {
-      font-size: var(--fz-800);
+      font-size: var(--fz-700);
       font-weight: 300;
 
       line-height: 0.8;
@@ -19,7 +19,7 @@
     h1 {
       margin-block-end: 1rem;
 
-      font-size: var(--fz-600);
+      font-size: var(--fz-500);
     }
 
     p {
