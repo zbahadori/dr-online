@@ -1,8 +1,5 @@
 import { ReactElement } from "react";
 
-import CardComponent from "@/components/card/card.component";
-import FilterButtonComponent from "@/components/filter-button/filter-button.component";
-
 import styles from "./page.module.css";
 import FilterComponent from "@/app/search/components/filter.component";
 
