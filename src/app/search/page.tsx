@@ -1,7 +1,10 @@
 import { ReactElement } from "react";
 
-import styles from "./page.module.css";
 import FilterComponent from "@/app/search/components/filter.component";
+
+import FiltersProvider from "@/app/search/providers/filters.provider";
+
+import styles from "./page.module.css";
 
 const items = Array(100)
   .fill(null)
@@ -9,30 +12,31 @@ const items = Array(100)
 
 export default function Page(): ReactElement {
   return (
-    <div className={styles.page}>
-      <div className={styles.filters}>
-        <FilterComponent
-          title={"زوج یا فرد"}
-          options={[
-            { value: "even", label: "زوج" },
-            { value: "odd", label: "فرد" },
-          ]}
-        />
-        <FilterComponent
-          title={"بخش پذیری"}
-          options={[
-            { value: "two", label: "بخش پذیر بر 2" },
-            { value: "three", label: "بخش پذیر بر 3" },
-            { value: "five", label: "بخش پذیر بر 5" },
-            { value: "seven", label: "بخش پذیر بر 7" },
-          ]}
-        />
+    <FiltersProvider>
+      <div className={styles.page}>
+        <div className={styles.filters}>
+          <FilterComponent
+            title={"زوج یا فرد"}
+            options={[
+              { key: "even", label: "زوج" },
+              { key: "odd", label: "فرد" },
+            ]}
+          />
+          <FilterComponent
+            title={"بخش پذیری"}
+            options={[
+              { key: "three", label: "بخش پذیر بر 3" },
+              { key: "five", label: "بخش پذیر بر 5" },
+              { key: "seven", label: "بخش پذیر بر 7" },
+            ]}
+          />
+        </div>
+        <ul className={styles.results}>
+          {items.map((item) => (
+            <li key={item}>{item}</li>
+          ))}
+        </ul>
       </div>
-      <ul className={styles.results}>
-        {items.map((item) => (
-          <li key={item}>{item}</li>
-        ))}
-      </ul>
-    </div>
+    </FiltersProvider>
   );
 }

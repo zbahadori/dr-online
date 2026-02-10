@@ -3,6 +3,7 @@ import {
   createContext,
   PropsWithChildren,
   ReactElement,
+  useCallback,
   useState,
 } from "react";
 import { FiltersType } from "@/app/search/types/filters.type";
@@ -29,24 +30,30 @@ type Props = PropsWithChildren;
 export default function FiltersProvider({ children }: Props): ReactElement {
   const [filters, setFilters] = useState<FiltersType>({});
 
-  const changeFilter = <TKey extends keyof FiltersType>(
-    key: TKey,
-    value: Exclude<FiltersType[TKey], undefined>,
-  ): void => {
-    setFilters((old) => ({ ...old, [key]: value }));
-  };
+  const changeFilter = useCallback(
+    <TKey extends keyof FiltersType>(
+      key: TKey,
+      value: Exclude<FiltersType[TKey], undefined>,
+    ): void => {
+      setFilters((old) => ({ ...old, [key]: value }));
+    },
+    [],
+  );
 
-  const removeFilter = <TKey extends keyof FiltersType>(key: TKey): void => {
-    setFilters((old) => {
-      const clone = { ...old };
-      delete clone[key];
-      return clone;
-    });
-  };
+  const removeFilter = useCallback(
+    <TKey extends keyof FiltersType>(key: TKey): void => {
+      setFilters((old) => {
+        const clone = { ...old };
+        delete clone[key];
+        return clone;
+      });
+    },
+    [],
+  );
 
-  const clearAll = (): void => {
+  const clearAll = useCallback((): void => {
     setFilters({});
-  };
+  }, []);
 
   return (
     <FiltersContext.Provider
