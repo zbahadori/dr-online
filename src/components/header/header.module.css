@@ -1,4 +1,7 @@
 .header {
+  background-color: var(--color-surface-700);
+  box-shadow: var(--shadow-400);
+
   display: flex;
   align-items: center;
   gap: 2rem;
@@ -35,7 +38,7 @@
     cursor: pointer;
 
     &:hover {
-      background-color: var(--color-primary-darker);
+      background-color: var(--color-primary);
       color: var(--color-primary-opposite);
     }
   }
