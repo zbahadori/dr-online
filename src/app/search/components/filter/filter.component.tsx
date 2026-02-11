@@ -6,7 +6,7 @@ import clsx from "clsx";
 import CardComponent from "@/components/card/card.component";
 import FilterButtonComponent from "@/components/filter-button/filter-button.component";
 
-import { FiltersContext } from "@/app/search/providers/filters.provider";
+import { FiltersContext } from "@/app/search/providers/filters/filters.provider";
 import { FiltersType } from "@/app/search/types/filters.type";
 
 import styles from "./filter.module.css";

@@ -1,17 +1,17 @@
-import { ReactElement } from "react";
+"use client";
+import { ReactElement, useContext } from "react";
+
+import ItemComponent from "@/app/search/components/item/item.component";
+import { ItemContext } from "@/app/search/providers/items/items.provider";
 
 import styles from "./list.module.css";
-import ItemComponent from "@/app/search/components/item/item.component";
-
-const items = Array(100)
-  .fill(null)
-  .map((_, i) => i + 1);
 
 export default function ListComponent(): ReactElement {
+  const { filteredItems } = useContext(ItemContext);
   return (
     <ul className={styles.list}>
-      {items.map((item) => (
-        <ItemComponent key={item} item={item} />
+      {filteredItems.map((item) => (
+        <ItemComponent key={item.value} item={item} />
       ))}
     </ul>
   );
